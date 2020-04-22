@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Diagram](Images/Screen Shot 2020-04-21 at 9.40.15 PM.png)
+![Diagram](https://github.com/mlinarte25/ELK-Project/blob/master/Images/Screen%20Shot%202020-04-21%20at%209.40.15%20PM.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
