@@ -91,4 +91,4 @@ _TODO: Answer the following questions to fill in the blanks:_
 - Update /etc/ansible/filebeat-configuration.yml and you include the machine's IP to it.
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 - 
-Which URL do you navigate to in order to check that the ELK server is running?
+http://104.42.13.125:5601/ this is the url to reach kibana.
