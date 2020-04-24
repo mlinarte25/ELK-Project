@@ -20,7 +20,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly secure defending against distributed DDoS attacks, in addition to restricting traffic to the network.
+Load balancing ensures that the application will be highly available, in addition to restricting traffic to the network.
 A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications.
 
 A jumpbox is a system on a network used to access and manage devices in a separate security zone. A jump server is a hardened and monitored device that spans two dissimilar security zones and provides a controlled means of access between them.
@@ -49,11 +49,11 @@ I allowed access from my DVWA-V1 to my ELKServer VM--10.1.0.6
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses  |
-|----------|---------------------|-----------------------|
-| Jump Box | Yes                 |10.1.0.4 home networkIP|    
-| DVWA-V1  | No                  |10.1.0.5               |
-|ElkServer | Yes                 |10.0.0.6 home networkIP |
+| Name     | Publicly Accessible | Allowed IP Addresses             |
+|----------|---------------------|----------------------------------|
+| Jump Box | Yes                 |home networkIP*.                  |    
+| DVWA-V1  | No                  |10.1.0.5, home networkIP*         |
+|ElkServer | Yes                 |10.0.0.6, 10.1.0.5 home networkIP*|
 
 ### Elk Configuration
 
